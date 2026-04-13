@@ -1,2 +1,2 @@
 This was made as a request from someone. To use, load a .xlsx file with all the NCT id's in the first column (no id in first row which will be the column label), name that file input; so it should be input.xlsx. Run the script. An output.xlsx file should be created. The time to create a output increases considerably with the amount of NCT id's. The program saves to the output every 200 entries during construction incase any issue occurs. Ideally don't open the created output until the program finishes. 
-If the script fails, the primar causes are python not being correctly set to PATH, or missing the libraries used (openpyxl, requests) 
+If the script fails, the primary causes are python not being correctly set to PATH, or missing the libraries used (openpyxl, requests) 
